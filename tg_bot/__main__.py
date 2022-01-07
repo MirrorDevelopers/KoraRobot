@@ -27,8 +27,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
+I am an 🔋Powerfull group management bot.
+Build by Team-SlapTap, I specialize in managing groups.
 You can find my list of *available commands* with :
 👉 /help.
 
