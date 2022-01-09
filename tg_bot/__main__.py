@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 
 Hi {}, my name is {}! 
-I am an 🔋Powerfull group management bot.
+I am an Anime Themed🔋Powerfull group management bot.
 Build by Team-SlapTap, I specialize in managing groups.
 You can find my list of *available commands* with :
 👉 /help.
@@ -49,7 +49,7 @@ I am a blank, I will be your partner and can help make your group great and attr
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KORA_IMG = "https://telegra.ph/file/8fda57770ba246a91befe.jpg"
+KORA_IMG = "https://telegra.ph/file/0286a7b5db6163cf594e7.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -148,11 +148,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 reply_markup=InlineKeyboardMarkup(
                [[
                InlineKeyboardButton(
-                   text="👑 SUMMON ME",
+                   text="👑 ADD ME",
                    url="t.me/{}?startgroup=true".format(bot.username)),
                InlineKeyboardButton(
                              text="⚡️ Get Support",
-                             url=f"https://t.me/KoraSupport")
+                             url=f"https://t.me/SLAPTAPS")
                ]]))
 
     else:
